@@ -1,5 +1,5 @@
 .container{
-  background: linear-gradient(to right bottom, #e1b382, #c89666);
+  background: linear-gradient(to right bottom, #f1bf8a, #d39f6e);
   width: 100%;
   min-height: 100vh;
   display: flex;
@@ -7,7 +7,7 @@
   align-items: center;
 }
 .app-wrapper{
-  background-color: #12343b;
+  background-color: #1b5561;
   min-width: 450px;
   min-height: 650px;
   padding: 30px;
@@ -16,6 +16,32 @@
   box-shadow: 3px 6px 40px #000;
   margin-bottom: 10px;
 }
+.icons{
+  width: 25px;
+  margin-left: 1em;
+}
+.todo-item{
+  display: flex;
+  justify-content: space-between;
+ color: #eaeaea;
+
+}
+.text-color{
+
+}
+h1{
+  text-align: center;
+}
+.form{
+  display: flex;
+  justify-content: space-evenly;
+}
 .input-field{
-  
+background-color: #e7ae78;
+width: 70%;
+padding: 0.5em;
+border-radius: 5%;
+}
+.add-button{
+
 }

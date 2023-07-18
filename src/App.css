@@ -1,5 +1,6 @@
 .container{
-  background: linear-gradient(to right bottom, #f1bf8a, #d39f6e);
+  background-image: url('./components/assets/fon.jpg');
+  background-size: cover;
   width: 100%;
   min-height: 100vh;
   display: flex;
@@ -7,8 +8,8 @@
   align-items: center;
 }
 .app-wrapper{
-  background-color: #1b5561;
-  min-width: 450px;
+  background-color: #e6b98f8f ;
+  min-width: 650px;
   min-height: 650px;
   padding: 30px;
   box-sizing: border-box;
@@ -16,6 +17,12 @@
   box-shadow: 3px 6px 40px #000;
   margin-bottom: 10px;
 }
+h1{
+  text-align: center;
+  color: #492b0f;
+}
+
+
 .icons{
   width: 25px;
   margin-left: 1em;
@@ -26,12 +33,8 @@
  color: #eaeaea;
 
 }
-.text-color{
 
-}
-h1{
-  text-align: center;
-}
+
 .form{
   display: flex;
   justify-content: space-evenly;
@@ -44,4 +47,7 @@ border-radius: 5%;
 }
 .add-button{
 
+}
+.list-complete{
+ text-decoration: line-through;
 }

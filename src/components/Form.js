@@ -6,8 +6,7 @@ export default function Form({
   setInput,
   todos,
   setTodos,
-  editTodo,
-  setEditDodo,
+  editTodo
 }) {
   
   const onInputChange = (event) => {
@@ -42,9 +41,9 @@ export default function Form({
   };
   return (
     <div>
-      <form onSubmit={onFormSubmit} className="form">
+      <form onSubmit={onFormSubmit} className="input-form">
         <input
-          className="input-field"
+          className="input"
           type="text"
           placeholder="Enter to do"
           value={input}

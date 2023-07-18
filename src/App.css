@@ -21,33 +21,48 @@ h1{
   text-align: center;
   color: #492b0f;
 }
-
-
-.icons{
-  width: 25px;
-  margin-left: 1em;
-}
-.todo-item{
-  display: flex;
-  justify-content: space-between;
- color: #eaeaea;
-
-}
-
-
-.form{
-  display: flex;
-  justify-content: space-evenly;
-}
-.input-field{
-background-color: #e7ae78;
-width: 70%;
-padding: 0.5em;
-border-radius: 5%;
+.input{
+ outline: none;
+ width: 400px;
+ padding: 15px;
+ font-size: 20px;
+ border-radius: 10px;
+ background-color: rgba(52, 32, 32, 0.599);
+ border: 1px solid #eaeaea;
+ margin-top: 0.5em;
 }
 .add-button{
-
+cursor: pointer;
+width: 70px;
+padding: 15px 15px;
+font-size: 20px;
+color: #aaa5a5dd;
+margin-top: 0.5em;
+border-radius: 10px;
+border: 0;
+background-color: #472505fd;
 }
-.list-complete{
+.icons{
+ width: 25px;
+ margin-left: 1em;
+ border: 1px solid #492b0f;
+ border-radius: 10px;
+ padding: 0.15em;
+ background-color: #492b0fa8;
+} 
+.input-form{
+  display: flex;
+  justify-content: space-around;
+}
+.todo-list{
+  display: flex;
+  justify-content: space-between;
+  color: #1d0d0d;
+  font-size: 1.5rem;
+  margin: 1em;
+  
+} 
+.complete{
  text-decoration: line-through;
 }
+

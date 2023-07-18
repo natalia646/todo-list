@@ -25,10 +25,10 @@ export default function List({ todos, setTodos, setEditTodo }) {
   };
 
   return (
-    <div className="todos-list">
+    <div>
       {todos.map((todo) => (
-        <li key={todo.id} className='todo-item'>
-          <input value={todo.title} onChange={(e) => e.preventDefault()} className={todo.completed ? 'list-completed' : ''} ></input>
+        <li key={todo.id} className={todo.completed ? 'todo-list complete' : 'todo-list'}>{todo.title}
+
           <div>
             <img
               className="icons"

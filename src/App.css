@@ -49,6 +49,7 @@ background-color: #472505fd;
  border-radius: 10px;
  padding: 0.15em;
  background-color: #492b0fa8;
+ cursor: pointer;
 } 
 .input-form{
   display: flex;
